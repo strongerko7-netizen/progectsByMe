@@ -264,7 +264,7 @@
     </div>
 
     <!-- Головний скрипт -->
-       <!-- Головний скрипт (дуже важливий!) -->
+    <!-- Головний скрипт (дуже важливий!) -->
     <script>
         function showSection(n) {
             document.querySelectorAll('.section').forEach(sec => sec.classList.add('hidden'));
@@ -295,11 +295,11 @@
         }
 
         // Запуск усього після завантаження
-        window.onload = function() {
+        window.onload = function () {
             console.log("✅ Сайт завантажено успішно");
 
             showSection(1);
-            
+
             // Ініціалізація всіх секцій
             if (typeof renderBooks === "function") renderBooks();
             if (typeof renderVisitors === "function") renderVisitors();
@@ -309,24 +309,13 @@
         };
     </script>
 
-    <script src="javaScript/books2.js"></script>
-    <script src="javaScript/visitors2.js"></script>
-    <script src="javaScript/loans2.js"></script>
-    <script src="javaScript/status2.js"></script>
+    <script src="books.js"></script>
+    <script src="visitors.js"></script>
+    <script src="loans.js"></script>
+    <script src="stats.js"></script>
+    <script src="main.js"></script>
 
 
-    <!-- <script src="javaScript/jsOld/books.js"></script>
-    <script src="javaScript/jsOld/visitors.js"></script>
-    <script src="javaScript/jsOld/loans.js"></script>
-    <script src="javaScript/jsOld/status.js"></script> -->
-
-
-
-    <!-- <script src="javaScript/books.js"></script>
-    <script src="javaScript/visitors.js"></script>
-    <script src="javaScript/loans.js"></script>
-    <script src="javaScript/status.js"></script> -->
-    <!-- <script src="allFileJS copy.js"></script> -->
 
 
 </body>
